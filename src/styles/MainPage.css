@@ -1,0 +1,81 @@
+#root {
+    background: rgb(84, 118, 190);
+}
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(84, 118, 190);
+}
+a {
+    text-decoration: none;
+    color: rgb(30, 30, 30);
+    font-size: 25px;
+}
+a:visited {
+    color: rgb(240, 229, 207);
+}
+.full-height {
+   height: 100%;
+   background: radial-gradient(rgb(84, 118, 190) 25%, rgb(8, 41, 102) 80%);
+   
+}
+.main-title {
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    font-size: 1.5em;
+    color: rgb(259, 250, 250);
+}
+.articles {
+    width: 80%;
+    list-style: none;
+    padding-inline-start: 0;
+}
+form {
+    margin-top: 40px;
+    border: 5px solid rgb(8, 41, 102);
+    padding: 0;
+    font-size: 0;
+    border-radius: 50px;
+}
+form:focus-within {
+    border: 5px solid rgb(158, 41, 50);
+}
+input {
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    outline: none;
+    border: none;
+    vertical-align: middle;
+    font-size: 25px;
+    padding: 5px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+button {
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    vertical-align: middle;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+li {
+    padding: 15px;
+    background: rgb(250, 250, 250);
+    margin-bottom: 30px;
+}
+li:hover {
+    box-shadow: 10px 10px 25px rgba(22, 22, 22, 0.5);
+}
+li a:visited {
+    color: rgb(100, 100, 100);
+}
+li h2 {
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
